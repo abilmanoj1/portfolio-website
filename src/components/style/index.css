@@ -1,0 +1,6 @@
+.glow-border:hover {
+    /* Apply the purple color as the glow */
+    box-shadow: 0 0 15px 3px #915EFF;
+    /* Adjust the values for the desired glow effect */
+    transition: box-shadow 0.3s;
+}
