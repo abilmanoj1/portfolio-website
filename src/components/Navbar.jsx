@@ -8,6 +8,21 @@ import { abilnobg, menu, close } from "../assets";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleDownload = () => {
+    const pdfPath = "src/document/Abil Manoj - Resume.pdf";
+
+    const anchor = document.createElement("a");
+    anchor.href = pdfPath;
+    anchor.download = "Abil Manoj - Resume.pdf";
+    anchor.style.display = "none";
+
+    document.body.appendChild(anchor);
+    anchor.click();
+    document.body.removeChild(anchor);
+  };
+
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
@@ -38,12 +53,42 @@ const Navbar = () => {
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
               }
-          hover:text-white text-[18px] font-medium cursor-pointer`}
+          hover:text-white text-[18px] flex items-center font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <li>
+            <button
+              className="group relative w-32 h-10 rounded-full bg-white text-purple-600 hover:text-white hover:bg-purple-600 transition duration-200 ease-in-out transform hover:scale-105 focus:outline-none"
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+              onClick={handleDownload}
+            >
+              <div className="flex items-center justify-center">
+                {/* <div className="absolute inset-0 rounded-full bg-purple-600 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out transform group-hover:scale-105">
+                  <img
+                    src="src/assets/download-white.png"
+                    alt="Icon"
+                    className="w-6 h-6 m-3"
+                  />
+                </div> */}
+                <div className="flex items-center gap-2">
+                  <img
+                    src={
+                      isHovered
+                        ? "src/assets/download-white.png"
+                        : "src/assets/download-purple.png"
+                    }
+                    alt="Icon"
+                    className="w-6 h-6 transition duration-300 ease-in-out"
+                  />
+                  <span className="relative z-10">Resume</span>
+                </div>
+              </div>
+            </button>
+          </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
