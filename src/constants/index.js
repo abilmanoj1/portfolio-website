@@ -196,6 +196,56 @@ const testimonials = [
   },
 ];
 
+const education_obtained = [
+  {
+    university_name: "University of Birmingham",
+    course: "MSc. Advanced Computer Science",
+    speciality: "with Merit",
+    course_duration: "2022-2023",
+    subjects: [
+      "Human Computer Interaction",
+      "Computer Aided Verification",
+      "Computer Vision",
+      "Advanced Computer Networks",
+      "Mobile & Ubiquitous Computing",
+      "Secure Software & Hardware",
+    ],
+    dissertation: [
+      "Hybrid Recommendation Engine using Graph Neural Networks and BERT",
+    ],
+    mark: "2:1",
+    logo: "src/assets/uob-logo.jpeg",
+    logo_alt: "uob_logo",
+    url: "https://www.bham.ac.uk",
+  },
+  {
+    university_name: "Rajagiri School of Engineering and Technology",
+    course: "Computer Science and Engineering",
+    speciality: "",
+    course_duration: "2016-2020",
+    subjects: [
+      "Data Structures & Algorithms",
+      "Computer Vision",
+      "Design & Analysis of Algorithms",
+      "Theory of Computation",
+      "Compiler Design",
+      "Databases",
+      "Soft Computing",
+      "Calculus",
+      "Differential Equation",
+      "Linear Algebra & Complex Analysis",
+      "Graph Theory",
+      "Data Mining & Warehousing",
+      "+30",
+    ],
+    dissertation: ["Password Managing System using Ethereum Blockchain"],
+    mark: "7.2/10",
+    logo: "src/assets/rajagiri-logo.jpeg",
+    logo_alt: "rset_logo",
+    url: "https://www.rajagiritech.ac.in/Home/Index.asp",
+  },
+];
+
 const projects = [
   {
     name: "Car Rent",
@@ -262,4 +312,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  education_obtained,
+};
