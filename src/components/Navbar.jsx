@@ -3,7 +3,13 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { abilnobg, menu, close } from "../assets";
+import {
+  abilnobg,
+  menu,
+  close,
+  download_purple,
+  download_white,
+} from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -76,11 +82,7 @@ const Navbar = () => {
                 </div> */}
                 <div className="flex items-center gap-2">
                   <img
-                    src={
-                      isHovered
-                        ? "src/assets/download-white.png"
-                        : "src/assets/download-purple.png"
-                    }
+                    src={isHovered ? download_white : download_purple}
                     alt="Icon"
                     className="w-6 h-6 transition duration-300 ease-in-out"
                   />

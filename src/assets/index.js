@@ -49,6 +49,12 @@ import python from "./python.png";
 import spring from "./spring.svg";
 import java from "./java.png";
 
+import uob_logo from "./uob-logo.jpeg";
+import rset_logo from "./rajagiri-logo.jpeg";
+
+import download_purple from "./download-purple.png";
+import download_white from "./download-white.png";
+
 export {
   logo,
   backend,
@@ -94,4 +100,8 @@ export {
   python,
   spring,
   java,
+  uob_logo,
+  rset_logo,
+  download_purple,
+  download_white,
 };

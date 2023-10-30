@@ -22,6 +22,8 @@ import {
   java,
   spring,
   python,
+  uob_logo,
+  rset_logo,
 } from "../assets";
 
 export const navLinks = [
@@ -217,7 +219,7 @@ const education_obtained = [
       "Hybrid Recommendation Engine using Graph Neural Networks and BERT",
     ],
     mark: "2:1",
-    logo: "src/assets/uob-logo.jpeg",
+    logo: uob_logo,
     logo_alt: "uob_logo",
     url: "https://www.bham.ac.uk",
   },
@@ -243,7 +245,7 @@ const education_obtained = [
     ],
     dissertation: ["Password Managing System using Ethereum Blockchain"],
     mark: "7.2/10",
-    logo: "src/assets/rajagiri-logo.jpeg",
+    logo: rset_logo,
     logo_alt: "rset_logo",
     url: "https://www.rajagiritech.ac.in/Home/Index.asp",
   },
