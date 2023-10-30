@@ -11,7 +11,7 @@ const Navbar = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleDownload = () => {
-    const pdfPath = "src/document/Abil Manoj - Resume.pdf";
+    const pdfPath = "./src/document/Abil Manoj - Resume.pdf";
 
     const anchor = document.createElement("a");
     anchor.href = pdfPath;
