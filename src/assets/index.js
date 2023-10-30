@@ -4,6 +4,9 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import linkedin from "./linkedin.png";
+import discord from "./discord.png";
+import twitter from "./twitter.webp";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -33,6 +36,12 @@ import tripguide from "./tripguide.png";
 import abilmanoj from "./abilpng.png";
 import abil from "./abil.svg";
 import abilnobg from "./abil-no-background.svg";
+
+import dexlock from "./dexlock.webp";
+import purple_paper from "./purple-plane.json";
+import tick_animation from "./tick-animation.json";
+import cross_animation from "./cross-animation.json";
+
 export {
   logo,
   backend,
@@ -65,4 +74,11 @@ export {
   abilmanoj,
   abil,
   abilnobg,
+  linkedin,
+  discord,
+  twitter,
+  dexlock,
+  purple_paper,
+  tick_animation,
+  cross_animation,
 };

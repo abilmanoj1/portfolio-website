@@ -1,3 +1,3 @@
 import SectionWrapper from "./SectionWrapper";
-
-export { SectionWrapper };
+import ContactWrapper from "./ContactWrapper";
+export { SectionWrapper, ContactWrapper };

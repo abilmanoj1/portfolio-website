@@ -4,3 +4,15 @@
     /* Adjust the values for the desired glow effect */
     transition: box-shadow 0.3s;
 }
+
+.bg-white-gradient {
+    background: linear-gradient(45deg, #ededed, #b7b6b6);
+}
+
+.bg-black-gradient {
+    background: linear-gradient(45deg, #505050, #a8a8a8);
+}
+
+.bg-blue-gradient {
+    background: linear-gradient(45deg, #0101c1, #559cd5);
+}
