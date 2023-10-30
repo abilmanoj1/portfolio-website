@@ -2,6 +2,8 @@
   "name": "portfolio-website",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://abilmanoj1.github.io/portfolio-website",
+
   "type": "module",
   "scripts": {
     "dev": "vite",
