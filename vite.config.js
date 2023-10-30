@@ -7,6 +7,6 @@ export default defineConfig({
   base: "/portfolio-website/",
   build: {
     // Output directory for production build
-    outDir: "docs",
+    outDir: "dist",
   },
 });
