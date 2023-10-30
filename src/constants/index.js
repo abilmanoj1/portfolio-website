@@ -15,15 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   dexlock,
+  recsys,
+  yieldsterscreen,
+  java,
+  spring,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -74,8 +72,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "React JS",
@@ -89,10 +91,10 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -110,8 +112,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Spring Boot",
+    icon: spring,
   },
 ];
 
@@ -249,67 +251,90 @@ const education_obtained = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Hybrid Recommendation Engine",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A hybrid recommendation system build using Graph Convolutional Network for collaborative filtering and a combination of BERT feature extraction and TF-IDF & Cosine Similarity for content based filtering, combined to yield better results.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Python",
+        color: "orange-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Natural Language Processing",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Content Based Filtering",
         color: "pink-text-gradient",
       },
+      {
+        name: "Collaborative Based Filtering",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GCN",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: recsys,
+    source_code_link: "https://github.com/abilmanoj1/recommendation-engine",
+    showLink: false,
   },
   {
-    name: "Job IT",
+    name: "DeFi Automated Asset Management System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed desktop user interface for a DeFi automated asset management system where users can deposit and withdraw crypto asset to vaults and strategies(automated tasks) running on each vault will divest these deposited assets into different liquidity pools to maximise users profit.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "RestAPI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Material-UI",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: yieldsterscreen,
+    source_code_link: "https://v1.yieldster.finance/",
+    showLink: true,
   },
   {
-    name: "Trip Guide",
+    name: "DeFi Automated Asset Management System - V2",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Co-developed the backend logic that allows to store 10000+ crypto assets in memory and fetch cost effective and high profitable path for token swapping and integrating AI based order balancer system for fractional swapping in order to maximise profits even more.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "Spring-Boot",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Swagger",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RestAPI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: yieldsterscreen,
+    source_code_link: "https://yieldster.finance/",
+    showLink: true,
   },
 ];
 

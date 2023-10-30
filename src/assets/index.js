@@ -24,14 +24,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+// import meta from "./company/meta.png";
+// import shopify from "./company/shopify.png";
+// import starbucks from "./company/starbucks.png";
+// import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// import carrent from "./carrent.png";
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
 
 import abilmanoj from "./abilpng.png";
 import abil from "./abil.svg";
@@ -41,6 +41,13 @@ import dexlock from "./dexlock.webp";
 import purple_paper from "./purple-plane.json";
 import tick_animation from "./tick-animation.json";
 import cross_animation from "./cross-animation.json";
+
+import recsys from "./RecSys.jpeg";
+import yieldsterscreen from "./yieldster-v1-screen.png";
+import www from "./www.png";
+import python from "./python.png";
+import spring from "./spring.svg";
+import java from "./java.png";
 
 export {
   logo,
@@ -64,13 +71,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  // meta,
+  // shopify,
+  // starbucks,
+  // tesla,
+  // carrent,
+  // jobit,
+  // tripguide,
   abilmanoj,
   abil,
   abilnobg,
@@ -81,4 +88,10 @@ export {
   purple_paper,
   tick_animation,
   cross_animation,
+  recsys,
+  yieldsterscreen,
+  www,
+  python,
+  spring,
+  java,
 };

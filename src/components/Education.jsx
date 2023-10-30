@@ -25,7 +25,8 @@ const Education = () => {
         <h2 className={styles.sectionHeadText}>Education.</h2>
       </motion.div>
       {education_obtained.map((education, index) => (
-        <div
+        <motion.div
+          variants={fadeIn("up", "spring", index * 0.5, 0.75)}
           key={index}
           className="sm:px-8 px-6 sm:py-8 py-10 mt-12 bg-tertiary rounded-[20px] flex gap-8"
         >
@@ -86,7 +87,7 @@ const Education = () => {
               Grade : <span className="text-[22px]">{education.mark}</span>
             </p>
           </div>
-        </div>
+        </motion.div>
       ))}
     </>
   );
