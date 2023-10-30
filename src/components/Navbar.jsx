@@ -9,6 +9,7 @@ import {
   close,
   download_purple,
   download_white,
+  abilmanoj_resume,
 } from "../assets";
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleDownload = () => {
-    const pdfPath = "./src/document/Abil Manoj - Resume.pdf";
+    const pdfPath = abilmanoj_resume;
 
     const anchor = document.createElement("a");
     anchor.href = pdfPath;

@@ -55,6 +55,8 @@ import rset_logo from "./rajagiri-logo.jpeg";
 import download_purple from "./download-purple.png";
 import download_white from "./download-white.png";
 
+import abilmanoj_resume from "../document/Abil Manoj - Resume.pdf";
+
 export {
   logo,
   backend,
@@ -104,4 +106,5 @@ export {
   rset_logo,
   download_purple,
   download_white,
+  abilmanoj_resume,
 };
