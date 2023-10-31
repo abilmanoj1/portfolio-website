@@ -121,6 +121,20 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <li
+                key="resume"
+                className={`${
+                  active === "Resume" ? "text-white" : "text-secondary"
+                }
+          font-poppins font-medium cursor-pointer text-[16px]`}
+                onClick={() => {
+                  setActive("Resume");
+                  setToggle(!toggle);
+                  handleDownload();
+                }}
+              >
+                <a>Resume</a>
+              </li>
             </ul>
           </div>
         </div>

@@ -34,9 +34,9 @@ const Hero = () => {
       <ComputersCanvas />
 
       <a href="#about" onClick={scrollToSection}>
-        <div className="relative xs:bottom-10 bottom-32 w-full flex justify-center items-center cursor-pointer">
+        <div className="relative xs:bottom-10 bottom-32 xs:bottom-0 w-full flex justify-center items-center cursor-pointer">
           <div className="w-[30px] h-[54px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.dev
+            <motion.div
               animate={{ y: [0, 22, 0] }}
               transition={{
                 duration: 2,
@@ -46,7 +46,7 @@ const Hero = () => {
               className="w-5 h-2 rounded-full bg-secondary mb-1"
             />
           </div>
-        </div>{" "}
+        </div>
       </a>
     </section>
   );
